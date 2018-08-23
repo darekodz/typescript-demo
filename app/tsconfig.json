@@ -1,9 +1,7 @@
 {
     "extends": "../tsconfig.base",
     "compilerOptions": {
-        "removeComments": true
-    },
-    "include": [
-        "./**/*"
-    ]
+        "removeComments": true,
+        "module": "commonjs"
+    }
 }

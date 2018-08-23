@@ -1,7 +1,6 @@
-// some comment
+import { person } from './Person';
+import { man } from './Man';
+import { profession } from './Profession';
+import { name } from './Name';
 
-let aaa;
-
-console.log('ts file 1');
-
-console.log('ts file 2');
+console.log(person, man, profession, name);

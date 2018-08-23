@@ -6,5 +6,6 @@
 		"watch": true,
 		"outDir": "js",
 		"strictNullChecks": true,
+		"noUnusedLocals": true,
 	}
 }
