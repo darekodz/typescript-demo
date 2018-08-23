@@ -7,5 +7,7 @@
 		"outDir": "js",
 		"strictNullChecks": true,
 		"noUnusedLocals": true,
+		"module": "commonjs",
+		"removeComments": true,
 	}
 }

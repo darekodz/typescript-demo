@@ -5,14 +5,14 @@
     "tasks": [
         {
             "type": "typescript",
-            "tsconfig": "app/tsconfig.json",
+            "tsconfig": "tsconfig.base.json",
             "problemMatcher": [
                 "$tsc"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
+            }
         }
     ]
 }
