@@ -1,2 +1,2 @@
 # typescript-demo
-Typescript in action 1
+Typescript in action 2
