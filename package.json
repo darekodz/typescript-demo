@@ -4,7 +4,7 @@
   "description": "Typescript in action",
   "main": "index.js",
   "scripts": {
-    "start": "http=server"
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
