@@ -7,14 +7,11 @@ import { Employee } from './Employee';
 const person = new Person('Gabriel', 176, 80);
 person.think();
 
-const man = new Man('Gabriel', 176, 80, 'very strong');
-man.hardWork();
-
-const employee = new Employee('Gabriel', 176, 80, 'very strong', 'Policeman');
+const employee = new Employee('Gabriel', 176, 80, 'Policeman');
+employee.think();
 employee.showProfession();
 
-// console.dir(Employee);
-// console.log(Object.getOwnPropertyNames(employee));
-
-const propertyNames = Object.getOwnPropertyNames(Employee.prototype);
-console.log(propertyNames);
+const man = new Man('Gabriel', 176, 80, 'Policeman', 'very strong');
+man.think();
+man.showProfession();
+man.hardWork();

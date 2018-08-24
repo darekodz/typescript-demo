@@ -1,13 +1,15 @@
-import { Man } from './Man';
+import { Person } from './Person';
 
-export class Employee extends Man {
+export class Employee extends Person {
 
-	constructor(name: string, g: number, w: number, power: string, protected profession: string) {
-		super(name, g, w, power);
+	constructor(name: string, g: number, w: number, protected profession: string) {
+		super(name, g, w);
 	}
 
 	public showProfession(): void {
-		console.log(`This person is a Man and his profession is ${this.profession}`);
+		console.log(`
+			This person's profession is ${this.profession}
+		`);
 	}
 
 }

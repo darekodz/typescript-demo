@@ -6,7 +6,9 @@ export class Person {
 	}
 
 	public think(): void {
-		console.log(`${this.name} as a Person is able to think. His / Her BMI is ${this.BMI}`);
+		console.log(`
+			${this.name} as a Person is able to think. His / Her BMI is ${this.BMI}
+		`);
 	}
 
 	private countBmi(growth: number, weight: number): number {

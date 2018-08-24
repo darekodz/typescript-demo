@@ -8,7 +8,7 @@ var Person = (function () {
         this.BMI = this.countBmi(this.growth, this.weight);
     }
     Person.prototype.think = function () {
-        console.log(this.name + " as a Person is able to think. His / Her BMI is " + this.BMI);
+        console.log("\n\t\t\t" + this.name + " as a Person is able to think. His / Her BMI is " + this.BMI + "\n\t\t");
     };
     Person.prototype.countBmi = function (growth, weight) {
         var growthInMetres = growth / 100;

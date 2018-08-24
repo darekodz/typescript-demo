@@ -5,10 +5,11 @@ var Man_1 = require("./Man");
 var Employee_1 = require("./Employee");
 var person = new Person_1.Person('Gabriel', 176, 80);
 person.think();
-var man = new Man_1.Man('Gabriel', 176, 80, 'very strong');
-man.hardWork();
-var employee = new Employee_1.Employee('Gabriel', 176, 80, 'very strong', 'Policeman');
+var employee = new Employee_1.Employee('Gabriel', 176, 80, 'Policeman');
+employee.think();
 employee.showProfession();
-var propertyNames = Object.getOwnPropertyNames(Employee_1.Employee.prototype);
-console.log(propertyNames);
+var man = new Man_1.Man('Gabriel', 176, 80, 'Policeman', 'very strong');
+man.think();
+man.showProfession();
+man.hardWork();
 //# sourceMappingURL=main.js.map

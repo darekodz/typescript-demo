@@ -10,18 +10,18 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Person_1 = require("./Person");
+var Employee_1 = require("./Employee");
 var Man = (function (_super) {
     __extends(Man, _super);
-    function Man(name, g, w, power) {
-        var _this = _super.call(this, name, g, w) || this;
+    function Man(name, g, w, p, power) {
+        var _this = _super.call(this, name, g, w, p) || this;
         _this.power = power;
         return _this;
     }
     Man.prototype.hardWork = function () {
-        console.log(this.name + " as a Man has " + this.growth + " cm growth, \n\t\t" + this.weight + " kg weight and he is " + this.power + " so he is able to work very hard");
+        console.log("\n\t\t\t" + this.name + " as a Man has " + this.growth + " cm growth, \n\t\t\t" + this.weight + " kg weight and he is " + this.power + " so he is able to work very hard\n\t\t");
     };
     return Man;
-}(Person_1.Person));
+}(Employee_1.Employee));
 exports.Man = Man;
 //# sourceMappingURL=Man.js.map
