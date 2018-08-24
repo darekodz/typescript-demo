@@ -10,18 +10,18 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Person_1 = require("./Person");
-var Man = (function (_super) {
-    __extends(Man, _super);
-    function Man(name, g, w, power) {
-        var _this = _super.call(this, name, g, w) || this;
-        _this.power = power;
+var Man_1 = require("./Man");
+var Employee = (function (_super) {
+    __extends(Employee, _super);
+    function Employee(name, g, w, power, profession) {
+        var _this = _super.call(this, name, g, w, power) || this;
+        _this.profession = profession;
         return _this;
     }
-    Man.prototype.hardWork = function () {
-        console.log(this.name + " as a Man has " + this.growth + " cm growth, \n\t\t" + this.weight + " kg weight and he is " + this.power + " so he is able to work very hard");
+    Employee.prototype.showProfession = function () {
+        console.log("This person is a Man and his profession is " + this.profession);
     };
-    return Man;
-}(Person_1.Person));
-exports.Man = Man;
-//# sourceMappingURL=Man.js.map
+    return Employee;
+}(Man_1.Man));
+exports.Employee = Employee;
+//# sourceMappingURL=Employee.js.map
