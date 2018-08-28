@@ -19,7 +19,7 @@ var Employee = (function (_super) {
         return _this;
     }
     Employee.prototype.showProfession = function () {
-        console.log("\n\t\t\tThis person's profession is " + this.profession + "\n\t\t");
+        $('textarea.textarea.is-loading.is-info').append("This person's profession is " + this.profession + ".\nThe \"showProfession() method\" executed.\n");
     };
     return Employee;
 }(Person_1.Person));

@@ -7,10 +7,11 @@ export class Man extends Employee {
 	}
 
 	public hardWork() {
-		console.log(`
-			${this.name} as a Man has ${this.growth} cm growth, 
-			${this.weight} kg weight and he is ${this.power} so he is able to work very hard
-		`);
+		$('textarea.textarea.is-loading.is-info').append(
+`${this.name} as a Man has ${this.growth} cm growth, 
+${this.weight} kg weight and he is ${this.power} so he is able to work very hard
+The "hardWork() method" executed.\n`,
+		);
 	}
 
 }

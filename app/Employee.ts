@@ -7,9 +7,10 @@ export class Employee extends Person {
 	}
 
 	public showProfession(): void {
-		console.log(`
-			This person's profession is ${this.profession}
-		`);
+		$('textarea.textarea.is-loading.is-info').append(
+`This person's profession is ${this.profession}.
+The "showProfession() method" executed.\n`,
+		);
 	}
 
 }

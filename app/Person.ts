@@ -6,9 +6,10 @@ export class Person {
 	}
 
 	public think(): void {
-		console.log(`
-			${this.name} as a Person is able to think. His / Her BMI is ${this.BMI}
-		`);
+		$('textarea.textarea.is-loading.is-info').append(
+`${this.name} as a Person is able to think. His / Her BMI is ${this.BMI}. 
+The "think() method" executed.\n`,
+		);
 	}
 
 	private countBmi(growth: number, weight: number): number {

@@ -19,7 +19,7 @@ var Man = (function (_super) {
         return _this;
     }
     Man.prototype.hardWork = function () {
-        console.log("\n\t\t\t" + this.name + " as a Man has " + this.growth + " cm growth, \n\t\t\t" + this.weight + " kg weight and he is " + this.power + " so he is able to work very hard\n\t\t");
+        $('textarea.textarea.is-loading.is-info').append(this.name + " as a Man has " + this.growth + " cm growth, \n" + this.weight + " kg weight and he is " + this.power + " so he is able to work very hard\nThe \"hardWork() method\" executed.\n");
     };
     return Man;
 }(Employee_1.Employee));
