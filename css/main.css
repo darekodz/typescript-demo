@@ -1,0 +1,12 @@
+textarea.blinking{
+    animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+    0% {	color: #000;	}
+    25% {	color: #000;	}
+    50% {	color: transparent;	}
+    60% {	color: #000;	}
+    75% {	color: #000;	}
+    90%{	color: #000;	}
+    100%{	color: #000;	}
+}
