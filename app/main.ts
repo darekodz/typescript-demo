@@ -1,6 +1,7 @@
 import { Person } from './Person';
 import { Man } from './Man';
 import { Employee } from './Employee';
+import * as $ from 'jquery';
 
 // console.log(Person, Man);
 
@@ -15,3 +16,5 @@ const man = new Man('Gabriel', 176, 80, 'Policeman', 'very strong');
 man.think();
 man.showProfession();
 man.hardWork();
+
+$('h1.title').html('ssss');
