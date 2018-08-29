@@ -4,37 +4,47 @@ Typescript / ES6 inheritance in action
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Clone / download the project, start server and play with the basic app:
+
+<p align="center">
+  <img src="./img/screenshot.png" alt="Screenshot">
+</p>
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To make this example work you need to have typescript installed on your machine.
 
 ```
-Give examples
+$ npm install -g typescript
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+After cloning go to the project directory and install all dependencies
 
 ```
-Give the example
+$ npm install
 ```
 
-And repeat
+Then you should be able to start the local web server by command
 
 ```
-until finished
+$ npm start
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+<p align="center">
+  <img src="./img/web-server.png" alt="Web server">
+</p>
 
-## Running the tests
+Open browser and go the the localhost adress displayed after starting web server, by default it is http://localhost:8080/ . You should see working website.
 
-Explain how to run the automated tests for this system
+## Running the app
+
+You play, modify something in .ts files and see changes in the app. To do this you need to build app after making changes. You can use for it created task for Visual Studio Code. Just use shortcut: cmd + shift + b or task manager and execute command: Tasks: Run Build Task:
+
+<p align="center">
+  <img src="./img/build.png" alt="Building project">
+</p>
 
 ### Break down into end to end tests
 
