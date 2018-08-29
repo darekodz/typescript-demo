@@ -52,6 +52,7 @@ You play, modify something in .ts files and see changes in the app. To do this y
 * [Bulma](https://bulma.io/) - Modern CSS framework based on Flexbox
 * [jQuery](https://jquery.com/) - Fast, small, and feature-rich JavaScript library
 * [SystemJS](https://github.com/systemjs/systemjs) - Configurable module loader enabling dynamic ES module workflows in browsers and NodeJS
+* [Http-Server](https://www.npmjs.com/package/http-server) - Simple, zero-configuration command-line http server
 
 ## Contributing
 
