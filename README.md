@@ -1,6 +1,6 @@
-# Project Title
+# Typescript-Demo
 
-One Paragraph of project description goes here
+Typescript / ES6 inheritance in action
 
 ## Getting Started
 
