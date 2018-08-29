@@ -46,31 +46,12 @@ You play, modify something in .ts files and see changes in the app. To do this y
   <img src="./img/build.png" alt="Building project">
 </p>
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Typescript](https://www.typescriptlang.org/) - Typed superset of javascript that compiles to plain javascript
+* [Bulma](https://bulma.io/) - Modern CSS framework based on Flexbox
+* [jQuery](https://jquery.com/) - Fast, small, and feature-rich JavaScript library
+* [SystemJS](https://github.com/systemjs/systemjs) - Configurable module loader enabling dynamic ES module workflows in browsers and NodeJS
 
 ## Contributing
 
