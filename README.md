@@ -56,7 +56,7 @@ You play, modify something in .ts files and see changes in the app. To do this y
 
 ## Authors
 
-* **Dariusz Odziomek** - (https://github.com/darekodz)
+* **Dariusz Odziomek** - (https://www.linkedin.com/in/darekodz/)
 
 ## License
 
