@@ -40,7 +40,7 @@ Open browser and go the the localhost adress displayed after starting web server
 
 ## Running the app
 
-You play, modify something in .ts files and see changes in the app. To do this you need to build app after making changes. You can use for it created task for Visual Studio Code. Just use shortcut: cmd + shift + b or task manager and execute command: Tasks: Run Build Task:
+You can play, modify something in .ts files and see changes in the app. To do this you need to build app after making changes. You can use for it created task for Visual Studio Code. Just use shortcut: cmd + shift + b or task manager and execute command: Tasks: Run Build Task:
 
 <p align="center">
   <img src="./img/build.png" alt="Building project">
