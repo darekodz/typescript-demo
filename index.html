@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Typescript demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
+</head>
+
+<body>
+	<section class="section">
+		<div class="container">
+			<h1 class="title is-1">Typescript demo</h1>
+			<h2 class="subtitle">Create an instance of class to see how inheritance works in Typescript / ES6</h2>
+			<div class="columns">
+				<div class="column">
+					<a class="button is-primary is-medium is-fullwidth">Person</a>
+				</div>
+				<div class="column">
+					<a class="button is-link is-medium is-fullwidth">Employee</a>
+				</div>
+				<div class="column">
+					<a class="button is-info is-medium is-fullwidth">Man</a>
+				</div>
+			</div>
+
+			<div class="control">
+				<textarea class="textarea is-loading is-info" placeholder="" rows="10" readonly></textarea>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="node_modules/systemjs/dist/system.js"></script>
+
+	<script>
+		System.config({
+			paths: {
+				'jquery': 'node_modules/jquery/dist/jquery.min'
+			},
+			meta: {
+				format: 'cjs'
+			},
+			packages: {
+				'.': {
+					defaultExtension: 'js'
+				}
+			}
+		});
+		System.import('./js/main.js');
+	</script>
+
+</body>
+
+</html>

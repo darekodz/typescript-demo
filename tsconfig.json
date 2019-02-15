@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"target": "es5",         
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"watch": true,
+		"outDir": "js",
+		"strictNullChecks": true,
+		"noUnusedLocals": true,
+		"module": "commonjs",
+		"removeComments": true,
+	}
+}
